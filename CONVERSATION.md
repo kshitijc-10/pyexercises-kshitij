@@ -145,3 +145,60 @@ campaign = {"name": "summer_sale", "budget": 5000}
 ```
 
 What method adds or changes a key-value pair in a dictionary?
+
+---
+## 2026-10-29 11:31, in .
+
+**Me:** what is a for loop in python
+
+**Tutor:**
+
+A for loop in Python repeats a block of code for each item in a sequence.
+
+```python
+# Loop over a list of toy products
+products = ["alpha", "beta", "gamma"]
+
+# TODO: print each product
+for _____ in _____:
+    _____
+```
+
+What is the name of the variable that holds one product during each loop?
+
+---
+## 2026-10-29 11:32, in .
+
+**Me:** how to make a forloop in python
+
+**Tutor:**
+
+A for-loop repeats a block of code for each item in a sequence.
+
+```python
+# Loop over a list of toy values
+items = ["alpha", "beta", "gamma"]
+
+for item in items:
+    # TODO: print the current item
+    pass
+```
+
+What is the keyword that starts the loop body?
+
+---
+## 2026-10-29 11:34, in .
+
+**Me:** how to define length in list
+
+**Tutor:**
+
+Defining the length of a list means counting how many items it contains.
+
+```python
+# Length of a list
+my_list = ["apple", "banana", "cherry"]
+length = len(my_list)  # TODO: replace my_list with your list variable
+```
+
+What does the `len()` function return when the list is empty?
