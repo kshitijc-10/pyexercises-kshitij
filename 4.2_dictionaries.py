@@ -22,11 +22,39 @@ CHECK IT YOURSELF
 DELIVERABLE
     This file, with your comments and your code.
 """
+name = input("Enter the name: ")
+age = input("Enter the age: ")
+city = input("Enter the city: ")
+country = input("Enter the country: ")
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+print("Name:", name)
+print("Age:", age)
+print("City:", city)
+print("Country:", country)
+
+person = {
+    "name": name,
+    "age": age,
+    "city": city,
+    "country": country
+}
+
+print("Person dictionary:", person)
+
+print("Name:", person["name"])
+print("Age:", person["age"])
+print("City:", person["city"])
+print("Country:", person["country"])
+
+person_age = person.pop("age")
+print("Removed age:", person_age)
+print("Updated person dictionary:", person)
+
+
+# 1. In: to create a dictionary, remove the last entry and print the updated dictionary.
+# 2. Process: use dictinary function, use the pop function then the print function.
+# 3. Out: printed updated dictionary with the last entry removed.
+# 4. My object, my five fields, and why those: printed dictionary with last entry removed. 
 
 
 # Your code below
