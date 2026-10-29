@@ -21,11 +21,16 @@ CHECK IT YOURSELF
 DELIVERABLE
     This file, with your comments and your code.
 """
-
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
+print("kshitij")
+print("1.kshitij")
+print("2.kshitij")
+print("3.kshitij")
+print("4.kshitij")
+print("5.kshitij")
+# 1. In: objective to print my name
+# 2. Process: normal string print function
+# 3. Out: printed my name 5 time
+# 4. My message, and why: to print my name for assignment
 
 
 # Your code below
